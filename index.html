@@ -41,7 +41,7 @@
                 </li>
             </ul>
         </nav>
-        <button type="button" class="hamburger-btn">
+        <button type="button" class="burger-btn burger-menu-toggle">
             <i class="fa-sharp fa-solid fa-bars"></i>
         </button>
         <div class="logo">
@@ -49,14 +49,15 @@
                 <img class="logo-img" src="./src/img/Tropical Getaways.png" alt="">
             </a>
         </div>
-        <nav>
-            <ul class="menu">
-                <li> <a href="#about"></a> About</li>
-                <li> <a href="#program"></a> Program</li>
-                <li> <a href="#join"></a> Join</li>
-                <li> <a href="#sponsors"></a> Sponsor</li>
-                <li> <a href="#news"></a> News</li>
-                <li> <a href="campaign"></a> Campaign</li>
+        <nav class="burger-menu burger-menu-hidden">
+            <img class="cross-menu" src="/src/img/Cross-menu.png" alt="cross-icon">
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item "> <a href="/about.html">About</a></li>
+                <li class="mobile-menu-item "> <a href="#content">Services</a></li>
+                <li class="mobile-menu-item "> <a href="#reservations">Reservations</a></li>
+                <li class="mobile-menu-item "> <a href="#cards">Reviews</a></li>
+                <li class="mobile-menu-item "> <a href="#partners">Our partners</a></li>
+                <li class="mobile-menu-item "> <a href="#">Campaign</a></li>
             </ul>
         </nav>
 
@@ -66,8 +67,11 @@
             <h1 class="intro-title"> Experience the Beauty of the Caribbean</h1>
             <p class="intro-p"> Discover the magic of the Caribbean with Tropical Getaways. From pristine beaches to lush rainforests, our expertly curated tours and packages will take you on a journey through some of the most breathtaking landscapes in the world.</p>
         </section>
-        <section class="content">
-            <h2> Explore the caribean with ease</h2>
+        <section class="content" id="content">
+            <div class="container-title-services">
+                <h2> Explore the caribean with ease</h2>
+                <hr class="cards-title-line">
+            </div>
             <div class="services">
                 <i class="fa-regular fa-paper-plane"></i>
                 <span class="">Flight Bookings</span>
@@ -94,23 +98,14 @@
                 <p class="">Set sail on a Caribbean adventure with our cruise packages.</p>
             </div>
             <div class="btn-services-container">
-                <button type="button" class="btn-services"> Make your reservations</button>
+                <button type="button" class="btn-services" id="reservations"> Make your reservations</button>
             </div>    
         </section>
-        <section class="cards-container">
+        <section class="cards-container" id="cards">
             <h2 class="cards-container-title">What Our Customers Say</h2>
             <hr class="cards-title-line">
-            <div class="cards">
-                <img class="cards-img" src="/src/img/face 2.jpg" alt="customer">
-                <div>
-                    <h3 class="card-title"> Sarah Johnson </h3>
-                    <span class="package">Island Tours</span>
-                    <hr class="names-line" align="left">
-                    <p class="card-paragraph"> I had an amazing time exploring the Caribbean with Tropical Getaways. Our guide was knowledgeable and friendly, and we saw some of the most beautiful sights I've ever seen. I highly recommend this tour!</p>
-                </div>
-            </div>
         </section>
-        <section class="partners-section">
+        <section class="partners-section" id="partners">
             <h2 class="partners-title">Partners</h2>
             <hr class="cards-title-line">
             <div class="partners-list">
@@ -136,8 +131,11 @@
     </main>
     <footer>
         <span>© 2023 Tropical Getaways. All Rights Reserved.</span>
-        <p> Unless otherwise specified, all content on this website is licensed under a Creative Commons Attribution 2.0 Korea license.
+        <p class="footer-p"> Unless otherwise specified, all content on this website is licensed under a Creative Commons Attribution 2.0 Korea license.
         </p>
     </footer>
+    <!-- Scripts -->
+    <script src="/src/JS/cards.js"></script>
+    <script src="/src/JS/mobile-btn.js"></script>
 </body>
 </html>
