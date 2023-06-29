@@ -15,27 +15,23 @@
 <body>
     <header>
         <nav class="desktop-nav-top">
-            <ul>
+            <ul class="nav-top-list">
                 <li>
-                    <a href="#">facebook</a>
+                    <a href="#"> 
+                        <img src="/src/img/facebook-icon.svg" alt="facebook"> 
+                    </a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="#">twitter</a>
+                    <a href="#">
+                        <img src="/src/img/twitter-icon.svg" alt="">
+                    </a>
                 </li>
-            </ul>
-            <ul>
                 <li>
                     <a href="#">English</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="#">My page</a>
+                    <a href="/index.html">My page</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
                     <a href="#">Logout</a>
                 </li>
@@ -60,50 +56,72 @@
                 <li class="mobile-menu-item "> <a href="#">Campaign</a></li>
             </ul>
         </nav>
-
+        <nav class="desktop-nav-bot">
+            <a href="/index.html">
+                <img class="desktop-logo" src="/src/img/Tropical Getaways.png" alt="">
+            </a>
+            <ul class="desktop-menu-list">
+                <li class="desktop-menu-item"> <a href="/about.html">About</a></li>
+                <li class="desktop-menu-item"> <a href="#content">Services</a></li>
+                <li class="desktop-menu-item"> <a href="#reservations">Reservations</a></li>
+                <li class="desktop-menu-item"> <a href="#cards">Reviews</a></li>
+                <li class="desktop-menu-item"> <a href="#partners">Partners</a></li>
+                <li class="desktop-menu-item btn-campaing"> <a href="#">Campaign</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="intro">
             <h1 class="intro-title"> Experience the Beauty of the Caribbean</h1>
             <p class="intro-p"> Discover the magic of the Caribbean with Tropical Getaways. From pristine beaches to lush rainforests, our expertly curated tours and packages will take you on a journey through some of the most breathtaking landscapes in the world.</p>
+            <div class="intro-append">
+                <p class="intro-subtitle">2023.07.9(SUN) ~ 11(TUE)</p>
+                <span class="intro-span">@ El Gran Roque island, villa caracol</span>
+            </div>
         </section>
         <section class="content" id="content">
             <div class="container-title-services">
-                <h2> Explore the caribean with ease</h2>
+                <h2> Explore the Caribbean with ease</h2>
                 <hr class="cards-title-line">
             </div>
-            <div class="services">
-                <i class="fa-regular fa-paper-plane"></i>
-                <span class="">Flight Bookings</span>
-                <p class="">Book your flights to the Caribbean with ease</p>
+            <div class="services-container">
+                <div class="services">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span class="">Flight Bookings</span>
+                    <p class="">Book your flights to the Caribbean with ease and saftely</p>
+                </div>
+                <div class="services">
+                    <i class="fa fa-bell-concierge"></i>
+                    <span class="">Hotel Reservations</span>
+                    <p class="">Find the perfect accommodation for your Caribbean getaway.</p>
+                </div>
+                <div class="services">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <span class="">Island Tours</span>
+                    <p class="">Explore the beauty of the Caribbean with our expert guides.</p>
+                </div>
+                <div class="services">
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <span class="">Beach Packages</span>
+                    <p class="">Relax on the best beaches in the Caribbean and around the world.</p>
+                </div>
+                <div class="services">
+                    <i class="fa-solid fa-ship"></i>
+                    <span class="">Cruise Packages</span>
+                    <p class="">Set sail on a Caribbean adventure with our cruise packages.</p>
+                </div>
             </div>
-            <div class="services">
-                <i class="fa fa-bell-concierge"></i>
-                <span class="">Hotel Reservations</span>
-                <p class="">Find the perfect accommodation for your Caribbean getaway.</p>
-            </div>
-            <div class="services">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <span class="">Island Tours</span>
-                <p class="">Explore the beauty of the Caribbean with our expert guides.</p>
-            </div>
-            <div class="services">
-                <i class="fa-solid fa-umbrella-beach"></i>
-                <span class="">Beach Packages</span>
-                <p class="">Relax on the best beaches in the Caribbean.</p>
-            </div>
-            <div class="services">
-                <i class="fa-solid fa-ship"></i>
-                <span class="">Cruise Packages</span>
-                <p class="">Set sail on a Caribbean adventure with our cruise packages.</p>
+            <div>
+                <a type="button" class="btn-services-desktop">See all our services</a>
             </div>
             <div class="btn-services-container">
-                <button type="button" class="btn-services" id="reservations"> Make your reservations</button>
+                <button type="button" class="btn-services" id="reservations">Make your reservations
+                </button>
             </div>    
         </section>
+        <h2 class="cards-container-title">What Our Customers Say</h2>
+        <hr class="cards-title-line">
         <section class="cards-container" id="cards">
-            <h2 class="cards-container-title">What Our Customers Say</h2>
-            <hr class="cards-title-line">
         </section>
         <section class="partners-section" id="partners">
             <h2 class="partners-title">Partners</h2>
