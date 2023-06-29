@@ -215,6 +215,10 @@ a {
   color: #fff;
 }
 
+.btn-services-desktop {
+  display: none;
+}
+
 /* Cards Section */
 
 .card-container {

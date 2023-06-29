@@ -149,6 +149,11 @@ body {
   font-weight: 600;
 }
 
+footer {
+  background-color: #272a31;
+  color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
   /* Hero Section */
 
