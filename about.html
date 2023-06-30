@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/src/styles/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js" ></script>
+    <link rel="stylesheet" href="./src/styles/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav-top">
+            <ul class="nav-top-list">
+                <li>
+                    <a href="#"> 
+                        <img src="/src/img/facebook-icon.svg" alt="facebook"> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/src/img/twitter-icon.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">English</a>
+                </li>
+                <li>
+                    <a href="/index.html">My page</a>
+                </li>
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="burger-btn burger-menu-toggle">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+        <div class="logo">
+            <a href="#">
+                <img class="logo-img" src="./src/img/Tropical Getaways.png" alt="">
+            </a>
+        </div>
+        <nav class="burger-menu burger-menu-hidden">
+            <img class="cross-menu" src="/src/img/Cross-menu.png" alt="cross-icon">
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item "> <a href="/index.html">Home</a></li>
+                <li class="mobile-menu-item "> <a href="#mission">Our Mission</a></li>
+                <li class="mobile-menu-item "> <a href="#info-logo">Our Logo</a></li>
+                <li class="mobile-menu-item "> <a href="#experiences">Annual Events</a></li>
+                <li class="mobile-menu-item "> <a href="#partners">Our Partners</a></li>
+            </ul>
+        </nav>
+        <nav class="desktop-nav-bot">
+            <a href="/index.html">
+                <img class="desktop-logo" src="/src/img/Tropical Getaways.png" alt="">
+            </a>
+            <ul class="desktop-menu-list">
+                <li class="desktop-menu-item"> <a href="/about.html">About</a></li>
+                <li class="desktop-menu-item"> <a href="#content">Services</a></li>
+                <li class="desktop-menu-item"> <a href="#reservations">Reservations</a></li>
+                <li class="desktop-menu-item"> <a href="#cards">Reviews</a></li>
+                <li class="desktop-menu-item"> <a href="#partners">Partners</a></li>
+                <li class="desktop-menu-item btn-campaing"> <a href="#">Campaign</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-container" id="mission">
+            <h1 class="hero-title">Experience the Beauty of the Caribbean</h1>
+            <p class="hero-paragraph">Welcome to Tropical Getaways, your gateway to the stunning beauty and vibrant cultures of the Caribbean. Our mission is to provide exceptional travel experiences that showcase the best of this dynamic region, from pristine beaches to lush rainforests, and from exciting cultural events to world-class cuisine.</p>
+            <span class="hero-span-contact">Please contact us via Email for more information about or services</span>
+            <span class="hero-span-email">tropicalgateways@tgateways.com</span>
+        </section>
+        <section class="info-container" id="info-logo">
+            <h2 class="info-title">Tropical Gateways logo</h2>
+            <hr class="separator">
+            <p class="info-paragraph">Our logo embodies the spirit of Tropical Getaways, inspired by travel and exploration. Meticulously crafted with attention to detail, it symbolizes our commitment to exceptional travel solutions in the Caribbean, representing our passion for adventure and creating unforgettable experiences.</p>
+            <img class="info-logo" src="/src/img/Tropical Getaways.png" alt="logo">
+        </section>
+        <hr class="separator-logo">
+        <section class="experiences-container" id="experiences">
+            <h2 class="experiences-title">Unforgettable Tropical Getaways Events</h2>
+            <hr class="separator">
+            <p class="experiences-paragraph">Unforgettable events in stunning Caribbean destinations. Join us for the ultimate getaway!</p>
+            <div class="experiences-images">
+                <div class="experiences-1">
+                    <h2 class="experiences-1-title">2021</h2>
+                    <span class="experiences-1-span">Tropical Gateways 2021 event in Punta Cana</span>
+                </div>
+                <div class="experiences-2">
+                    <h2 class="experiences-2-title">2022</h2>
+                    <span class="experiences-2-span">Tropical Gateways 2022 event in Cancun</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>© 2023 Tropical Getaways. All Rights Reserved.</span>
+        <p class="footer-p"> Unless otherwise specified, all content on this website is licensed under a Creative Commons Attribution 2.0 Korea license.
+        </p>
+    </footer>
+    <!-- Scripts -->
+    <script src="/src/JS/mobile-btn.js"></script>
+</body>
+</html>

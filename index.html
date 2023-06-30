@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Getaways</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js" ></script>
+    <link rel="stylesheet" href="./src/styles/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav-top">
+            <ul class="nav-top-list">
+                <li>
+                    <a href="#"> 
+                        <img src="/src/img/facebook-icon.svg" alt="facebook"> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/src/img/twitter-icon.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">English</a>
+                </li>
+                <li>
+                    <a href="/index.html">My page</a>
+                </li>
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="burger-btn burger-menu-toggle">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+        <div class="logo">
+            <a href="#">
+                <img class="logo-img" src="./src/img/Tropical Getaways.png" alt="">
+            </a>
+        </div>
+        <nav class="burger-menu burger-menu-hidden">
+            <img class="cross-menu" src="/src/img/Cross-menu.png" alt="cross-icon">
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item "> <a href="/about.html">About</a></li>
+                <li class="mobile-menu-item "> <a href="#content">Services</a></li>
+                <li class="mobile-menu-item "> <a href="#reservations">Reservations</a></li>
+                <li class="mobile-menu-item "> <a href="#cards">Reviews</a></li>
+                <li class="mobile-menu-item "> <a href="#partners">Our partners</a></li>
+                <li class="mobile-menu-item "> <a href="#">Campaign</a></li>
+            </ul>
+        </nav>
+        <nav class="desktop-nav-bot">
+            <a href="/index.html">
+                <img class="desktop-logo" src="/src/img/Tropical Getaways.png" alt="">
+            </a>
+            <ul class="desktop-menu-list">
+                <li class="desktop-menu-item"> <a href="/about.html">About</a></li>
+                <li class="desktop-menu-item"> <a href="#content">Services</a></li>
+                <li class="desktop-menu-item"> <a href="#reservations">Reservations</a></li>
+                <li class="desktop-menu-item"> <a href="#cards">Reviews</a></li>
+                <li class="desktop-menu-item"> <a href="#partners">Partners</a></li>
+                <li class="desktop-menu-item btn-campaing"> <a href="#">Campaign</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1 class="intro-title"> Experience the Beauty of the Caribbean</h1>
+            <p class="intro-p"> Discover the magic of the Caribbean with Tropical Getaways. From pristine beaches to lush rainforests, our expertly curated tours and packages will take you on a journey through some of the most breathtaking landscapes in the world.</p>
+            <div class="intro-append">
+                <p class="intro-subtitle">2023.07.9(SUN) ~ 11(TUE)</p>
+                <span class="intro-span">@ El Gran Roque island, villa caracol</span>
+            </div>
+        </section>
+        <section class="content" id="content">
+            <div class="container-title-services">
+                <h2> Explore the Caribbean with ease</h2>
+                <hr class="cards-title-line">
+            </div>
+            <div class="services-container">
+                <article class="services">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span class="">Flight Bookings</span>
+                    <p class="">Book your flights to the Caribbean with ease and saftely</p>
+                </article>
+                <article class="services">
+                    <i class="fa fa-bell-concierge"></i>
+                    <span class="">Hotel Reservations</span>
+                    <p class="">Find the perfect accommodation for your Caribbean getaway.</p>
+                </article>
+                <article class="services">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <span class="">Island Tours</span>
+                    <p class="">Explore the beauty of the Caribbean with our expert guides.</p>
+                </article>
+                <article class="services">
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <span class="">Beach Packages</span>
+                    <p class="">Relax on the best beaches in the Caribbean and around the world.</p>
+                </article>
+                <article class="services">
+                    <i class="fa-solid fa-ship"></i>
+                    <span class="">Cruise Packages</span>
+                    <p class="">Set sail on a Caribbean adventure with our cruise packages.</p>
+                </article>
+            </div>
+            <div>
+                <a type="button" class="btn-services-desktop">See all our services</a>
+            </div>
+            <div class="btn-services-container">
+                <button type="button" class="btn-services" id="reservations">Make your reservations
+                </button>
+            </div>    
+        </section>
+        <h2 class="cards-container-title">What Our Customers Say</h2>
+        <hr class="cards-title-line">
+        <section class="cards-container" id="cards">
+        </section>
+        <section class="partners-section" id="partners">
+            <h2 class="partners-title">Partners</h2>
+            <hr class="cards-title-line">
+            <div class="partners-list">
+                <ul>
+                    <li>
+                        <img class="partner-img" src="/src/img/Mandarin_Oriental.png" alt="partner">
+                    </li>
+                    <li>
+                        <img class="partner-img" src="/src/img/axa.png" alt="partner">
+                    </li>
+                    <li>
+                        <img class="partner-img" src="/src/img/Emirates_Airlines.png" alt="partner">
+                    </li>
+                    <li>
+                        <img class="partner-img" src="/src/img/Hilton_International.png" alt="partner">
+                    </li>
+                    <li>
+                        <img class="partner-img" src="/src/img/hertz.svg" alt="partner">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>© 2023 Tropical Getaways. All Rights Reserved.</span>
+        <p class="footer-p"> Unless otherwise specified, all content on this website is licensed under a Creative Commons Attribution 2.0 Korea license.
+        </p>
+    </footer>
+    <!-- Scripts -->
+    <script src="/src/JS/cards.js"></script>
+    <script src="/src/JS/mobile-btn.js"></script>
+</body>
+</html>
