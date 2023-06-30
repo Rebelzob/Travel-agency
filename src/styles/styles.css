@@ -487,6 +487,7 @@ footer {
   }
 
   .btn-services-desktop {
+    display: block;
     font-size: xx-large;
     text-decoration: underline;
     background-color: transparent;
