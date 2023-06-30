@@ -63,6 +63,8 @@ In this project we used HTML CSS and Javascript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+
+- [Live Demo Link](https://rebelzob.github.io/Travel-agency/)
 - You can watch the [video](https://www.loom.com/share/5beaaf62640445b3baf91d8969024eac?sid=f7e8bbc7-e808-4f29-924b-d3095c4e467c) walkthrough here.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,7 +169,7 @@ If you like this project follow and give me a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners and support groups!
+- This Project was inspired by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
